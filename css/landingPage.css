@@ -1,0 +1,217 @@
+body{
+	background-image: url("../img/TampaSkylineBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: absolute;
+}
+header{
+	background-color: #012e5a;
+	color:white;
+	font-size: 1em;
+	
+}
+.emailLink{
+	color:white;
+}
+.emailLink:hover{
+	color:#8fb973;
+}
+.logo{
+	margin: 15px auto;
+	z-index: 40;
+}
+
+.mainContent{
+	background:rgba(255,255,255, 0.8);
+	font-family: 'Arial';
+	margin-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+/* Tabs panel */
+.tabbable-panel {
+
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: white;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: white;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid white;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: white;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: white;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #8fb973;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: white;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color:  white;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+.tabTitles{
+	font-size:1.2em;
+	background: none !important;
+	margin-top: 2.2em;
+}
+.tab-pane{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 1.3em;
+	text-align: justify;
+
+}
+.nav-tabs > li{
+	float:right;
+}
+.linkBoxContainer{
+	margin-top:40px;
+	margin-bottom: 50px;
+}
+.lgSiteLinks{
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  	box-shadow:         3px 3px 5px 6px #ccc;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	margin-top: 10px;
+}
+
+.smSiteLinks{
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  	box-shadow:         3px 3px 5px 6px #ccc;
+	padding: 0px;
+	margin: 2em auto;
+	position: relative;
+
+}
+
+
+
+footer{
+	margin-top: 40px;
+	background-color: #012e5a;
+	color:white;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+.googleMap{
+	padding-left: 0px;
+	margin-left: -15px;
+	padding-right: 0px;
+	z-index: 88;
+	height: 230px;
+}
+.contactListLG > li{
+	list-style: none;
+	font-size: 1.1em;
+	font-family: Arial;
+	text-align: left;
+	margin-left: 30px;
+	padding-bottom: 3px;
+}
+.contactListSM > li{
+	list-style: none;
+	font-size: 1.1em;
+	font-family: Arial;
+	text-align: center;
+	margin-left: 30px;
+	padding-bottom: 3px;
+}
+.footerTitleLG{
+	color:#8fb973;
+	font-size: 1.5em;
+	margin-left: 69px;
+	font-family: Arial;
+}
+.footerTitleSM{
+	color:#8fb973;
+	font-size: 1.5em;
+	margin-left: 69px;
+	font-family: Arial;
+	text-align: center;
+}
+.contactUsSM{
+	background-color: #012e5a;
+	color:white;
+
+}
+.legalText{
+	background:rgba(255,255,255, 0.8);
+	color:grey;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid black;
+	font-style: italic;
+}
+.subTabTitles{
+	color: grey;
+	border-bottom: 1px solid grey;
+}
+/*.tab-pane{
+	height: 17em;
+	
+}*/
+.tab-pane > p{
+	padding: 10px;
+}
+.subHeaderText{
+	color:#012e5a;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#insuranceTextLink :hover{
+	color:#8fb973;
+	text-decoration: none;
+}
+.tabArea{
+	padding-left: 0px;
+	padding-right: 0px;
+}
